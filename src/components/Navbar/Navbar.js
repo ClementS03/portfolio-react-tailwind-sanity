@@ -2,11 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const ACTIVE_COLOR = "#D00404"
-const INACTIVE_COLOR = "#000000"
+const INACTIVE_COLOR = "#ffffff"
 
 const Navbar = () => {
   return (
-    <nav className="space-x-3">
+    <nav className="space-x-10">
       <NavLink
         style={({ isActive }) => 
           isActive
