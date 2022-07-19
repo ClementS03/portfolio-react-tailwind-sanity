@@ -1,15 +1,15 @@
-import React from 'react';
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import React from "react";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const Layout = (props) => {
   return (
-    <>
-        <Header />
-            <main>{props.children}</main>
-        <Footer />
-    </>
-  )
-}
+    <div className="flex flex-col justify-between h-screen">
+      <Header />
+      <main className="">{props.children}</main>
+      <Footer />
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;
