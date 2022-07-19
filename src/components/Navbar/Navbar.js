@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="shadow-md w-full  top-0 left-0 md:flex md:justify-between bg-header-bg py-4">
+    <div className="sticky shadow-md w-full top-0 left-0 md:flex md:justify-between bg-header-bg py-4">
       <h1 className="text-white text-xl md:ml-10 ml-5">Seguin Clément</h1>
       <div
         onClick={() => {
@@ -43,9 +43,9 @@ const Navbar = () => {
         <NavLink onClick={toggleNavBar} style={style()} to="/">
           Accueil
         </NavLink>
-        {/* <NavLink onClick={toggleNavBar} style={style()} to="/about"> */}
-        {/* A propos */}
-        {/* </NavLink> */}
+        <NavLink onClick={toggleNavBar} style={style()} to="/about"> 
+         A propos 
+         </NavLink>
         <NavLink onClick={toggleNavBar} style={style()} to="/skills">
           Compétences
         </NavLink>
