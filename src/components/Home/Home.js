@@ -48,14 +48,14 @@ const Home = () => {
               </a>
             </li>
           </ul>
-          <h1 className="text-2xl">Hello ! Moi c'est Clément !</h1>
+          <h1 className="text-xl md:text-2xl">Hello ! Moi c'est Clément !</h1>
           <span className="border-red border-2 w-20 mt-3"></span>
-          <p className="max-w-md mt-4">
+          <p className="text-base md:text-lg max-w-md mt-4">
             Developpeur web professionel j'aide les petites et moyennes
             entreprise à développer leur présence en ligne grâce à leur site
             internet
           </p>
-          <div className="flex space-x-20 mt-6">
+          <div className="text-base md:text-lg flex space-x-20 mt-6">
             <Link to="/projects">
               <button className="hover:bg-red border-2 border-red rounded-full p-3 pl-5 pr-5">
                 Mon Portfolio
