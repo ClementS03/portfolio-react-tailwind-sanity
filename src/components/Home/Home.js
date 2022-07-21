@@ -7,7 +7,8 @@ const Home = () => {
   return (
       <div className="p-5 flex flex-col items-center justify-center text-white text-lg">
       <img
-        style={{ height: 400, width: 400 }}
+        
+        className="h-56 md:h-96"
         src={developerImage}
         alt="developpeur"
       />
@@ -47,7 +48,8 @@ const Home = () => {
               </a>
             </li>
           </ul>
-          <h2 className="text-2xl">Hello ! Moi c'est Clément !</h2>
+          <h1 className="text-2xl">Hello ! Moi c'est Clément !</h1>
+          <span className="border-red border-2 w-20 mt-3"></span>
           <p className="max-w-md mt-4">
             Developpeur web professionel j'aide les petites et moyennes
             entreprise à développer leur présence en ligne grâce à leur site
