@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <div className="p-3 h-20 w-full bottom-0 flex flex-col z-50 justify-center bg-header-bg text-white text-xl">
+    <div className="h-24 w-full flex flex-col z-50 justify-center bg-header-bg text-white text-xl">
       <div className="flex flex-col m-auto">
       <ul className="flex justify-around space-x-3 mb-3">
         <li>
@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <div>Copyright &copy; {date} Seguin Clément</div>
+      <div className="">Copyright &copy; {date} Seguin Clément</div>
       </div>
     </div>
   );

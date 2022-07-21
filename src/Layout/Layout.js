@@ -6,7 +6,7 @@ const Layout = (props) => {
   return (
     <div className="flex flex-col justify-between h-screen bg-bg-center fixed top-0 w-full">
       <Header />
-      <main className="">{props.children}</main>
+      <main>{props.children}</main>
       <Footer />
     </div>
   );
